@@ -1,0 +1,16 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+}
+@media (max-width: 768px) {
+  .table-responsive {
+    font-size: 12px;
+  }
+  th, td {
+    white-space: nowrap;
+  }
+}
